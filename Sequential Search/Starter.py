@@ -1,7 +1,7 @@
 import random
 
 # creating array of random ints
-numbers = [int(random.random() * 20) for _ in xrange(100)]
+numbers = [int(random.random() * 20) for _ in range(100)]
 
 # printing array so we know what were looking at
 print(numbers)
