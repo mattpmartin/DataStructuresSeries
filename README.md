@@ -1,2 +1,2 @@
 # DataStructuresSeries
-The file for the how to in five youtube series on datastructures #### Playlist url will be here
+The file for the How to in Five [Youtube series on datastructures](https://www.youtube.com/playlist?list=PLveAIogCrRlXsg5YA2TxVuFXAHb98VDXs)
