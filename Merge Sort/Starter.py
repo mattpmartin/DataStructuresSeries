@@ -11,5 +11,5 @@ def mergeSort(numbers):
     # Your code here
 
 # test the functions
-
-print(mergeSort(numbers))
+mergeSort(numbers)
+print(numbers)
