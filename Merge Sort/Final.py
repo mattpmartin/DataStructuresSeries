@@ -8,7 +8,7 @@ print(numbers)
 
 # Shell sort
 def mergeSort(numbers):
-    if len(numbers) > 0:
+    if len(numbers) > 1:
         mid = len(numbers) // 2
 
         leftHalf = numbers[:mid]
@@ -30,7 +30,7 @@ def mergeSort(numbers):
                 numbers[z] = rightHalf[y]
                 y += 1
 
-            k += 1
+            z += 1
 
         while x < len(leftHalf):
             numbers[z] = leftHalf[x]
@@ -43,5 +43,5 @@ def mergeSort(numbers):
             z += 1
 
 # test the functions
-
-print(mergeSort(numbers))
+mergeSort(numbers)
+print(numbers)
