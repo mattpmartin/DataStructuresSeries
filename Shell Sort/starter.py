@@ -15,5 +15,5 @@ def shellInsertionSort(numbers, start, i):
     # Your code here
 
 # test the functions
-
-print(shellSort(numbers))
+shellSort(numbers)
+print(numbers)

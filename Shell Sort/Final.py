@@ -30,5 +30,5 @@ def shellInsertionSort(numbers, start, i):
         numbers[position] = currentValue
 
 # test the functions
-
-print(shellSort(numbers))
+shellSort(numbers)
+print(numbers)
